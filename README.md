@@ -1,6 +1,8 @@
 # ht_countries_repository
 
-[![Coverage Badge](coverage_badge.svg)](https://github.com/headlines-toolkit/ht-countries-repository) [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C8E.svg)](https://pub.dev/packages/very_good_analysis)
+[![Coverage Status](coverage_badge.svg)](https://github.com/headlines-toolkit/ht-countries-firestore)
+[![style: very_good_analysis](https://img.shields.io/badge/style-very_good_analysis-B22C8E.svg)](https://pub.dev/packages/very_good_analysis)
+[![License: PolyForm Free Trial 1.0.0](https://img.shields.io/badge/License-PolyForm%20Free%20Trial%201.0.0-blue.svg)](LICENSE)
 
 A repository layer for managing country data, acting as an intermediary between the application's business logic (e.g., BLoCs) and the underlying `ht_countries_client` data source abstraction.
 
