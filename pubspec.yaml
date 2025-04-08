@@ -7,8 +7,6 @@ environment:
   sdk: ^3.7.0
 
 dependencies:
-  flutter:
-    sdk: flutter
   ht_countries_client:
     git:
       url: https://github.com/headlines-toolkit/ht-countries-client.git
@@ -17,7 +15,6 @@ dependencies:
       url: https://github.com/headlines-toolkit/ht-shared.git
       
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   mocktail: ^1.0.4
+  test: ^1.25.15
   very_good_analysis: ^7.0.0

@@ -16,9 +16,8 @@ class HtCountriesRepository {
   /// {@macro ht_countries_repository}
   ///
   /// Requires an instance of [HtCountriesClient] to interact with the data source.
-  const HtCountriesRepository({
-    required HtCountriesClient countriesClient,
-  }) : _countriesClient = countriesClient;
+  const HtCountriesRepository({required HtCountriesClient countriesClient})
+    : _countriesClient = countriesClient;
 
   final HtCountriesClient _countriesClient;
 
