@@ -6,6 +6,8 @@
 
 A repository layer for managing country data, acting as an intermediary between the application's business logic (e.g., BLoCs) and the underlying `ht_countries_client` data source abstraction.
 
+> **Note:** This package is being archived. Please use the successor package [`ht-data-repository`](https://github.com/headlines-toolkit/ht-data-repository) instead.
+
 ## Usage
 
 Import the package and instantiate the repository with a configured `HtCountriesClient` implementation.
